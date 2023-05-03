@@ -11,5 +11,6 @@ jobs:
     steps:
       - checkout
       - run: echo $MY_VAR
+      - run: echo 'Hello world'
       - run: node --version
       - run: npm install
